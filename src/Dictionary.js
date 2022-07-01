@@ -1,8 +1,10 @@
 import React from "react";
 import "./Dictionary.css";
 
-
+export default function Dictionary () {
+    return (
     <form>
+        
     <div className="row">
         <div className="col-9">
             <input
@@ -12,12 +14,12 @@ import "./Dictionary.css";
             autoFocus="on"
             />
         </div>
-        <div className="col-3">
+        <div className="col-auto">
             <input type="submit" value="Search" className="btn btn-primary" />
         </div>
     </div>
-</form>
 
-export default function Dictionary () {
-    return <div className="Dictionary">This is my dictionary</div>;
+</form>
+    );
+
 }
