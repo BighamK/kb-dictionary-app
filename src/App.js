@@ -1,29 +1,23 @@
 import './App.css';
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
+      <div className="container">
       <header className="App-header">
 Vocabulary at your fingertips
       </header>
+    <main>
+      <Dictionary />
+    </main>
+
+      <footer className="text-center"> Coded by: K. Bigham </footer>
     
-      <form>
-                <div className="row">
-                    <div className="col-9">
-                        <input
-                        type="search"
-                        placeholder="Type in your word..."
-                        className="form-control"
-                        autoFocus="on"
-                        />
-                    </div>
-                    <div className="col-3">
-                        <input type="submit" value="Search" className="btn btn-primary" />
-                    </div>
-                </div>
-            </form>
+
+    </div>
     </div>
   );
 }
 
-export default App;
+
