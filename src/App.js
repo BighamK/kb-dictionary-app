@@ -9,7 +9,7 @@ export default function App() {
 Vocabulary at your fingertips
       </header>
     <main>
-      <Dictionary />
+      <Dictionary defaultKeyword="Dog" />
     </main>
 
       <footer className="text-center"> Coded by: K. Bigham </footer>
