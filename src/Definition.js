@@ -3,9 +3,9 @@ import Meaning from "./Meaning";
 
 
 
-export default function Results(props) {
+export default function Definition(props) {
   if (props.results) {
-    return <div className="Results">
+    return <div className="Definition">
         <h2> {props.results.word}</h2>
         {props.results.meaning.map(function(meaning, index) {
             return (
