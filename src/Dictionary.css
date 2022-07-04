@@ -1,3 +1,24 @@
 form {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.Dictionary section {
+    background: rgba(132, 220, 249, 0.875);
+    padding: 30px;
+   
+    margin: 20px 0; 
+}
+
+.Dictionary input {
+    width: 100%;
+    padding: 6px 4px;
+    border-radius: 6px;
+    color: darkblue;
+    border: 1px solid #ddd;
+
+}
+
+.Dictionary .hint {
+font-size: 15px;
+margin-top: 5px;
+}
