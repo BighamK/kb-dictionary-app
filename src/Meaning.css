@@ -1,10 +1,15 @@
 .Meaning .definition {
     color: darkblue;
     font-size: 18px;
+    margin-top: 10px;
     
 }
 
 .Meaning .example {
     font-style: italic;
-    background-color: rgb(182, 232, 248);
+}
+
+.Meaning h4 {
+    font-size: 18px;
+    font-weight: bold;
 }
