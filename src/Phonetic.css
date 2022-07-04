@@ -1,0 +1,22 @@
+
+.Phonetic {
+    height: 50px;
+}
+
+.Phonetic a {
+    border: 3px solid #ddd;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.Phonetic a:hover {
+    background-color: whitesmoke;
+    color: darkblue;
+}
+
+.Phonetic .sounds {
+    font-weight: bold;
+}
