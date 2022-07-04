@@ -12,7 +12,7 @@ Vocabulary at your fingertips
       <Dictionary defaultKeyword="Dog" />
     </main>
 
-      <footer className="text-center"> Coded by: K. Bigham </footer>
+      <footer className="App-footer"><small>Coded by: K. Bigham</small> </footer>
     
 
     </div>
