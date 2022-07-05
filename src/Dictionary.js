@@ -17,7 +17,7 @@ export default function Dictionary (props) {
     }
 
     function handlePexelsResponse(response) {
-        setPhotos(response.data.photos[0]);
+        setPhotos(response.data.photos);
     }
 
     function search() {
@@ -27,7 +27,7 @@ axios.get(apiUrl).then(handleDictionaryResponse);
 
 
 let pexelsApiKey = "563492ad6f9170000100000165777f53ed7a4f8f96a4b3d05a4cada6";
-let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
+let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
 
 let headers = { Authorization: `Bearer ${pexelsApiKey}` };
 axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
@@ -68,9 +68,8 @@ axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
                     Suggested words: sunset, dog, happy...
                 </div>
                 </section>
+                <Photos photos={photos} />
                 <Results results={results} />
-                
-                
            </div>
     );
 } else {
