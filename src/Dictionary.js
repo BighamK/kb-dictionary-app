@@ -69,7 +69,8 @@ axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
                 </div>
                 </section>
                 <Results results={results} />
-                <Photos photos={photos} />
+                
+                
            </div>
     );
 } else {
