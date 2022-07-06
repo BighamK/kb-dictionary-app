@@ -12,7 +12,16 @@ export default function App() {
       <Dictionary defaultKeyword="Dog" />
     </main>
 
-      <footer className="App-footer"><small>Coded by: K. Bigham</small> </footer>
+      <footer className="Footer text-center"><small>Coded by: K. Bigham
+      
+           and is open-sourced on{" "}
+          <a
+            href="https://github.com/BighamK/kb-dictionary-app"
+            target="_blank" rel="noreferrer"
+          >
+            Github
+          </a>{" "}</small>
+          </footer>
     </div>
     </div>
   );
