@@ -5,16 +5,14 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-      <header className="App-header">
-Vocabulary at your fingertips
-      </header>
+        <div className="Header text-center">
+        Dictionary App <br />Vocabulary at your fingertips
+      </div>
     <main>
       <Dictionary defaultKeyword="Dog" />
     </main>
 
       <footer className="App-footer"><small>Coded by: K. Bigham</small> </footer>
-    
-
     </div>
     </div>
   );

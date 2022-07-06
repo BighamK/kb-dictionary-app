@@ -51,6 +51,7 @@ axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
     if (loaded) {
     return (
          <div className="Dictionary">
+             
 <section>
     <h1>What word are you looking for?</h1>
                  <form className="form-inline" onSubmit={handleSubmit}> 
@@ -68,8 +69,9 @@ axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
                     Suggested words: sunset, dog, happy...
                 </div>
                 </section>
-                <Photos photos={photos} />
+             
                 <Results results={results} />
+                <Photos photos={photos} />
            </div>
     );
 } else {
