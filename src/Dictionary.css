@@ -28,3 +28,7 @@
 font-size: 16px;
 margin-top: 5px;
 }
+
+.Dictionary button {
+    margin-left: 10px;
+}

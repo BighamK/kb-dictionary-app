@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="Header text-center">
-        Dictionary App <br /><small>Vocabulary at your fingertips</small>
+        <strong>Dictionary App</strong> <br /><small>Vocabulary at your fingertips</small>
       </div>
 
     <main>
