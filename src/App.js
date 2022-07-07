@@ -8,17 +8,27 @@ export default function App() {
         <div className="Header text-center">
         Dictionary App <br />Vocabulary at your fingertips
       </div>
+      
     <main>
-      <Dictionary defaultKeyword="Dog" />
+      <Dictionary defaultKeyword="Mountain" />
     </main>
 
-      <footer className="Footer text-center">
-        Coded by: K. Bigham and is open-sourced on{" "}
+      <footer className="Footer text-center mb-10">
+        This project was coded by: K. Bigham, is open-sourced on{" "}
           <a
             href="https://github.com/BighamK/kb-dictionary-app"
             target="_blank" rel="noreferrer"
           >
             Github
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://sunny-tarsier-9c2e07.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            title="Dictionary App"
+          >
+            Netlify
           </a>
           </footer>
     </div>

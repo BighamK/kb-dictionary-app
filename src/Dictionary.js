@@ -66,11 +66,11 @@ axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
                    </div>
                 </form>
                 <div className="hint">
-                    Suggested words: sunset, dog, happy...
+                    Suggested words: sunset, moon, happy, cat...
                 </div>
                 </section>
-             
                 <Results results={results} />
+                
                 <Photos photos={photos} />
            </div>
     );
