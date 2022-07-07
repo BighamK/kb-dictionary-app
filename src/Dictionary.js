@@ -66,7 +66,7 @@ axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
                    </div>
                 </form>
                 <div className="hint">
-                    Suggested words: sunset, moon, happy, cat...
+                    Suggested words: sunset, moon, happy, dog...
                 </div>
                 </section>
                 <Results results={results} />
