@@ -6,9 +6,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="Header text-center">
-        Dictionary App <br />Vocabulary at your fingertips
+        Dictionary App <br /><small>Vocabulary at your fingertips</small>
       </div>
-      
+
     <main>
       <Dictionary defaultKeyword="Mountain" />
     </main>

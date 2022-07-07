@@ -2,7 +2,7 @@
   text-align: left;
   max-width: 960px;
   margin: 0 auto;
-  filter: drop-shadow(8px 8px rgba(51, 52, 149, 0.7));
+  filter: drop-shadow(12px 10px 5px rgba(51, 52, 149));
 }
 
 body {
@@ -24,5 +24,4 @@ footer {
   color: darkblue;
   background-color: aliceblue;
   border-radius: 8px;
-
 }
