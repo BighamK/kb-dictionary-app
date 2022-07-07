@@ -16,7 +16,7 @@ export default function Meaning(props) {
                      {definition.definition}
                        </div>
                     
-                       <div className="example">
+                       <div className="example">  
                        {definition.example}
                        </div>
                      
