@@ -17,6 +17,7 @@ body {
   padding: 5px;
   background-color: aliceblue;
   border-radius: 8px;
+  text-shadow: 4px 4px lightskyblue;
 }
 
 footer {
